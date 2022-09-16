@@ -112,7 +112,7 @@ h2 {
     border: 3px solid #3882f6;
     height: 200px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .second-part {
@@ -128,4 +128,31 @@ h2 {
     font-size: 18px;
     text-align: center;
     padding: 
+}
+
+.third-part {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.p-third {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    margin-left: 500px;
+
+}
+
+.author {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 500px;
 }
