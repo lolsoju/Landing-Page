@@ -55,7 +55,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
-    padding: 50px 0px;
+    padding: 150px 0px;
 }
 
 .content-right {
@@ -155,4 +155,57 @@ h2 {
     display:flex;
     justify-content: flex-end;
     margin-right: 500px;
+}
+
+.fourth-part {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border-radius: 10px;
+}
+
+.left {
+    width: 80%;
+    margin-left: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    color: white;
 }
