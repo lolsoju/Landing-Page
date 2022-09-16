@@ -55,7 +55,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: row;
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .content-right {
@@ -84,11 +84,48 @@ h1 {
     background-color: #3882f6;
     color: white;
     width: 100px;
-    height: 30px;
+    height: 40px;
     border: 1px #3882f6;
     border-radius: 10px;
 }
 
-.first-part {
-    padding
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.row-of-blue-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin: 50px;
+    padding-left: 80px;
+    gap: 40px;
+}
+
+.blue-box {
+    border: 3px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.second-part {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.p-second {
+    font-size: 18px;
+    text-align: center;
+    padding: 
 }
